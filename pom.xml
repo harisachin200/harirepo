@@ -28,12 +28,12 @@
     <repository>
          <id>nexusdeploy</id>
          <name>MyCo Internal Repository</name>
-         <url>http://54.86.210.85:8080/nexus-2.11.4-01/content/repositories/releases/</url>
+         <url>http://54.209.211.243:8080/nexus-2.11.4-01/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
          <id>nexusdeploy</id>
          <name>Your Snapshot Repository</name>
-         <url>http://54.86.210.85:8080/nexus-2.11.4-01/content/repositories/snapshots/</url>
+         <url>http://54.209.211.243:8080/nexus-2.11.4-01/content/repositories/snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
   
