@@ -20,12 +20,20 @@
     <id>nexusdeploy</id>
       <name>versions releases</name>
       <url>http://http://ec2-54-196-95-195.compute-1.amazonaws.com:8080/nexus-2.11.4-01/content/repositories/releases/</url>
+     </repository>
+    <snapshotRepository>
+      <id>nexusdeploy</id>
+      <name>Dev snapshotsy</name>
+      <url>http://http://ec2-54-196-95-195.compute-1.amazonaws.com:8080/nexus-2.11.4-01/content/repositories/snapshots/</url>
+    </snapshotRepository>
+     <repository>
+    <id>nexusdeploye</id>
+      <name>versions releases</name>
        <url>http://192.168.237.130:8080/nexus-2.11.4-01/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>nexusdeploy</id>
       <name>Dev snapshotsy</name>
-      <url>http://http://ec2-54-196-95-195.compute-1.amazonaws.com:8080/nexus-2.11.4-01/content/repositories/snapshots/</url>
       <url>http://192.168.237.130:8080/nexus-2.11.4-01/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
