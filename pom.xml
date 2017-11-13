@@ -24,7 +24,7 @@
     <snapshotRepository>
       <id>nexusdeploy</id>
       <name>Dev snapshotsy</name>
-      <url></url>
+      <url>http://192.168.237.130:8080/nexus-2.11.4-01/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
