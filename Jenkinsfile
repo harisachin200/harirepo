@@ -3,7 +3,7 @@ node('BANISA') {
    stage('Preparation') { // for display purposes
       git 'https://github.com/harisachin200/harirepo.git'
             
-      mvnHome = tool 'M3'
+      mvnHome = tool 'maven3.5
    }
    stage('Build') {
       // Run the maven build
