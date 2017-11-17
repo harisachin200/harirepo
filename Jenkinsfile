@@ -1,7 +1,10 @@
 pipeline {
+	agent{
+	label 'BANISA'
+	}
     
     tools { 
-        maven 'Maven3.5' 
+        maven 'maven3.5' 
         jdk 'jdk8' 
     }
     stages {
