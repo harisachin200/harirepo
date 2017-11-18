@@ -1,12 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <properties>
+     <nxur>ec2-54-172-180-81.compute-1.amazonaws.com</nxur>
+    <ver>1.1</ver>
+  </properties>
   <groupId>com.organisation.hcl</groupId>
   <artifactId>smaplewebapp</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>${vers}</version>
   <name>smaplewebapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -19,12 +25,12 @@
     <repository>
     <id>nexusdeploy</id>
       <name>versions releases</name>
-      <url>http://ec2-52-207-1-176.compute-1.amazonaws.com:8080/nexus-2.11.4-01/content/repositories/releases/</url>
+      <url>http://${nxur}/nexus-2.11.4-01/content/repositories/releases/</url>
      </repository>
     <snapshotRepository>
       <id>nexusdeploy</id>
       <name>Dev snapshotsy</name>
-      <url>http://ec2-52-207-1-176.compute-1.amazonaws.com/nexus-2.11.4-01/content/repositories/snapshots/</url>
+      <url>http://${nxur}/nexus-2.11.4-01/content/repositories/snapshots/</url>
     </snapshotRepository>
      </distributionManagement>
   <build>
