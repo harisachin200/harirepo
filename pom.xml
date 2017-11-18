@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <properties>
      <nxur>ec2-54-172-180-81.compute-1.amazonaws.com</nxur>
-    <ver>1.1</ver>
+    <ver>1.0</ver>
   </properties>
   <groupId>com.organisation.hcl</groupId>
   <artifactId>smaplewebapp</artifactId>
