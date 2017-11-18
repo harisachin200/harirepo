@@ -8,7 +8,7 @@
   <groupId>com.organisation.hcl</groupId>
   <artifactId>smaplewebapp</artifactId>
   <packaging>war</packaging>
-  <version>${vers}</version>
+  <version>${ver}</version>
   <name>smaplewebapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
