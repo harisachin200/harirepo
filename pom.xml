@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <properties>
-     <nxur>ec2-54-172-180-81.compute-1.amazonaws.com</nxur>
+     <nxur>ec2-52-15-237-219.us-east-2.compute.amazonaws.com</nxur>
     <ver>1.0</ver>
   </properties>
   <groupId>com.organisation.hcl</groupId>
